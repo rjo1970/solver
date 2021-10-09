@@ -4,7 +4,7 @@ defmodule Solver.MixProject do
   def project do
     [
       app: :solver,
-      name: "Solver",
+      name: "solver",
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
@@ -34,7 +34,6 @@ defmodule Solver.MixProject do
 
   defp package() do
     [
-      name: "Solver",
       files: ~w(lib .formatter.exs license* mix.exs README*),
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/rjo1970/solver"}
