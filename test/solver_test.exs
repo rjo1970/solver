@@ -1,8 +1,4 @@
-defmodule SolverTest do
-  use ExUnit.Case
+defmodule Solver.SolverTest do
+  use ExUnit.Case, async: true
   doctest Solver
-
-  test "greets the world" do
-    assert Solver.hello() == :world
-  end
 end
