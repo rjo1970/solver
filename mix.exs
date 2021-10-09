@@ -36,7 +36,7 @@ defmodule Solver.MixProject do
   defp package() do
     [
       name: "Solver",
-      files: ~w(lib priv .formatter.exs license* mix.exs README*),
+      files: ~w(lib .formatter.exs license* mix.exs README*),
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/rjo1970/solver"}
     ]
