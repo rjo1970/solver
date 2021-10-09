@@ -1,6 +1,6 @@
 # Solver
 
-**TODO: Add description**
+Create and solve linear systems of equations.
 
 ## Installation
 
